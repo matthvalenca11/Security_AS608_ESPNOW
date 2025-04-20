@@ -1,8 +1,8 @@
 🔒 ESP32 Fingerprint Sync System using ESP-NOW
 This project allows two ESP32 devices to capture, store, and synchronize fingerprint templates using the AS608 (or similar) fingerprint sensor and ESP-NOW communication protocol. Both devices are identical in setup and logic, enabling bi-directional synchronization of fingerprint data without needing Wi-Fi or internet.
-
-
-
+.
+.
+.
 🧠 Features
 📸 Capture fingerprints with AS608 sensor
 
@@ -21,10 +21,9 @@ This project allows two ESP32 devices to capture, store, and synchronize fingerp
 Save (GPIO 14)
 
 Verify (GPIO 27)
-
-
-
-
+.
+.
+.
 ⚙️ Components
 ESP32 (x2)
 
@@ -35,9 +34,9 @@ I2C OLED Display (128x64)
 Two push buttons
 
 SPIFFS filesystem for template persistence
-
-
-
+.
+.
+.
 🔗 How it works
 When a user enrolls a fingerprint on one ESP32, it is saved locally and sent over ESP-NOW to the other ESP32.
 
